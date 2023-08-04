@@ -50,11 +50,11 @@ fun ProfileScreen() {
 
         ProfileSection()
 
-        Spacer(modifier = Modifier.height(25.dp))
+        Spacer(modifier = Modifier.height(15.dp))
 
         ButtonsSection(modifier = Modifier.fillMaxWidth())
 
-        Spacer(modifier = Modifier.height(25.dp))
+        Spacer(modifier = Modifier.height(10.dp))
 
         HighlightSection(
             highlights = listOf(
@@ -174,7 +174,7 @@ fun ProfileSection(
         }
 
         ProfileDescription(
-            displayName = "Digital creator",
+            displayName = "Aviral Kaushik \nDigital creator",
             description = "Android + Software + IoS + Website Developer \n \uD83C\uDF91Skills: Python | Java | Kotlin | Flutter | C++ | C# | Kivy | React | Angular | Javascript | PHP | Node",
             url = "http://aviralkaushik.epizy.com/",
             followedBy = listOf("avi_kaushik, anilkaushik007, pallavikaushik"),
