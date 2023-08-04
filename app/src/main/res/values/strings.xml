@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">InstaProfile</string>
+    <string name="title_activity_profile_section">ProfileSection</string>
+</resources>
